@@ -45,19 +45,19 @@ This project analyzes U.S. Census data to uncover patterns related to income, ed
 ![Age Distribution (Cleaned Data)](Histogram_cd.png)
 
 ### 2. Age Distribution (Sample Data)
-![Age Distribution (Sample Data)](images/Histogram_sd.png)
+![Age Distribution (Sample Data)](Histogram_sd.png)
 
 ### 3. Profession Distribution by Age Groups (Cleaned Data)
-![Profession Distribution (Cleaned Data)](images/PieChart_cd.png)
+![Profession Distribution (Cleaned Data)](PieChart_cd.png)
 
 ### 4. Profession Distribution by Age Groups (Sample Data)
-![Profession Distribution (Sample Data)](images/PieChart_sd.png)
+![Profession Distribution (Sample Data)](PieChart_sd.png)
 
 ### 5. Education Comparison by Gender (Cleaned Data)
-![Education Comparison (Cleaned Data)](images/barchart_cd.png)
+![Education Comparison (Cleaned Data)](barchart_cd.png)
 
 ### 6. Education Comparison by Gender (Sample Data)
-![Education Comparison (Sample Data)](images/barchart_sd.png)
+![Education Comparison (Sample Data)](barchart_sd.png)
 
 ---
 
