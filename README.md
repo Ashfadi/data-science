@@ -1,49 +1,68 @@
 # Census Data Analysis
 
 ## Overview
-This project focuses on analyzing U.S. Census data to uncover trends and insights about income, education levels, age distribution, and occupations. The data was cleaned, preprocessed, and visualized using Python libraries.
+This project analyzes U.S. Census data to uncover patterns related to income, education, professions, and age distribution. The analysis includes data cleaning, exploration, visualization, and key insights. The goal is to provide actionable insights through visualizations and statistical exploration.
 
 ## Objectives
-- Clean and preprocess raw census data for analysis.
-- Explore demographic trends related to age, education, and income.
-- Visualize key findings using plots and charts.
+- Clean and preprocess raw census data for meaningful analysis.
+- Explore demographic and income patterns based on age, gender, and education.
+- Visualize the data to make findings intuitive and easy to understand.
 
 ## Tools and Technologies
 - **Programming Language**: Python
 - **Libraries**: Pandas, NumPy, Matplotlib
 - **Tools**: Jupyter Notebook
 
-## Key Steps
-1. **Data Cleaning**: 
-   - Standardized categorical values (e.g., combining similar categories like 'Federal-gov' and 'State-gov').
-   - Removed missing or invalid data points.
-2. **Data Preprocessing**:
-   - Discretized gross income into ranges (`<=50K` and `>50K`).
-   - Grouped ages into categories (e.g., `<21`, `21-40`, `41-60`, `>60`).
-3. **Exploratory Data Analysis**:
-   - Created frequency plots to analyze age distributions.
-   - Generated pie charts to compare professions by age groups.
-   - Grouped and compared education levels by gender.
-   - Identified the top 5 occupations.
-4. **Visualizations**:
-   - Histograms for age distributions.
-   - Pie charts for profession distribution.
-   - Bar charts comparing education by gender.
+## Steps
+1. **Data Cleaning**:
+   - Standardized categorical variables (e.g., combining similar work classes into unified categories like "Government" and "Self-employed").
+   - Removed rows with missing or invalid data.
+   - Discretized income into two groups: `<=50K` and `>50K`.
+
+2. **Data Analysis**:
+   - Examined income distribution and demographic trends.
+   - Grouped data by age, gender, and education for deeper insights.
+   - Compared cleaned data with a sample dataset for validation.
+
+3. **Visualizations**:
+   - Histograms for age distribution.
+   - Pie charts for profession distribution across age groups.
+   - Bar charts to compare education levels by gender and age groups.
+
+## Key Findings
+- **Income Trends**: 
+  - Individuals aged 41-60 dominate the `>50K` income group.
+- **Profession Distribution**: 
+  - Private employment is the largest sector across all age groups, while self-employment increases with age.
+- **Education and Gender**:
+  - Males hold a higher percentage of advanced degrees (Masters, Doctorates) compared to females, particularly in older age groups.
+
+---
 
 ## Visualizations
-### Example: Frequency Plot for Age Groups
-![Age Group Plot](images/age_groups.png)
 
-### Example: Pie Chart for Profession Distribution
-![Profession Distribution](images/professions.png)
+### 1. Age Distribution (Cleaned Data)
+![Age Distribution (Cleaned Data)](images/Histogram_cd.png)
 
-## Results
-- **Income Trends**: Majority of people earning `<=50K` were in specific age and education categories.
-- **Education and Gender**: Higher education levels (Masters, Doctorate) were slightly more prevalent among males in older age groups.
-- **Top 5 Occupations**:
-  - Identified the most common occupations in the dataset.
+### 2. Age Distribution (Sample Data)
+![Age Distribution (Sample Data)](images/Histogram_sd.png)
+
+### 3. Profession Distribution by Age Groups (Cleaned Data)
+![Profession Distribution (Cleaned Data)](images/PieChart_cd.png)
+
+### 4. Profession Distribution by Age Groups (Sample Data)
+![Profession Distribution (Sample Data)](images/PieChart_sd.png)
+
+### 5. Education Comparison by Gender (Cleaned Data)
+![Education Comparison (Cleaned Data)](images/barchart_cd.png)
+
+### 6. Education Comparison by Gender (Sample Data)
+![Education Comparison (Sample Data)](images/barchart_sd.png)
+
+---
 
 ## How to Run
+
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Ashfadi/Census-Data-Analysis.git
+   git clone https://github.com/<your-username>/Census-Data-Analysis.git
