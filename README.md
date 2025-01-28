@@ -42,7 +42,7 @@ This project analyzes U.S. Census data to uncover patterns related to income, ed
 ## Visualizations
 
 ### 1. Age Distribution (Cleaned Data)
-![Age Distribution (Cleaned Data)](images/Histogram_cd.png)
+![Age Distribution (Cleaned Data)](Histogram_cd.png)
 
 ### 2. Age Distribution (Sample Data)
 ![Age Distribution (Sample Data)](images/Histogram_sd.png)
